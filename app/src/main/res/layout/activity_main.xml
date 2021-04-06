@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TV_com"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="컴퓨터"
+        android:textSize="50dp"
+        android:textColor="#2A4085"
+        android:background="#7FA142"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/TV_result"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="가위바위보\n(경기시작:여기터치)"
+        android:textSize="50dp"
+        android:textColor="#2A4085"
+        android:background="#B374CA"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/BT_man_Gawi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="가위"
+        android:textSize="50dp" />
+    <Button
+        android:id="@+id/BT_man_Bawi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="바위"
+        android:textSize="50dp" />
+    <Button
+        android:id="@+id/BT_man_Bo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="보"
+        android:textSize="50dp" />
+
+
+
+    </LinearLayout>
+</LinearLayout>
